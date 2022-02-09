@@ -16,6 +16,8 @@ def salvar(dicionario):
         for chave, valor in dicionario.items():
             arquivo.write(chave + ":" + str(valor))
 
-def excluir(dicionario):
-    with open("bd.txt", "e") as arquivo:
-        
+#def remover(dicionario):
+#    with open("bd.txt", "e") as arquivo:
+#       print("Qual usuário gostaria de remover?")
+#       usuario = inserir(dicionario)
+#       usuario.remove(usuario)
