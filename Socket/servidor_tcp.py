@@ -1,5 +1,6 @@
 from socket import *
 
+# --> APLICAÇÃO SERVIDORA - Abre uma porta para os clientes acessarem API, conexão
 servidor = "127.0.0.1" # --> localhost
 porta = 43210
 
