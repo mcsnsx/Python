@@ -1,5 +1,6 @@
 from socket import *
 
+# --> MÉTODO UDP - Comunicação entre Aplicações
 servidor="127.0.0.1"
 porta=43210
 
