@@ -20,3 +20,14 @@ if conexao != "":
     conexao.close()
 
 
+# --> CÓDIGO QUE ESTÁ NO ARDUINO (Sensor)
+#
+# void setup (){
+#     Serial.begin(115200);
+# }
+#
+# void loop(){
+#     int luz = analogRead(1);
+#     Serial.println(luz);
+#     delay(1000);
+# }
