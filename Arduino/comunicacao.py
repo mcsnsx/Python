@@ -17,3 +17,24 @@ while acao=="L" or acao=="D":
     acao = input("Digite: \n<L> para Ligar\n<D> para Desligar: ").upper()
 conexao.close()
 print("Conexão encerrada.")
+
+
+
+# --> CÓDIGO QUE ESTÁ NO ARDUINO
+#
+# void setup() {
+#   pinMode(10, OUTPUT);
+#   Serial.begin(115200);
+# }
+#
+# void loop() {
+#   int valorRecebido;
+#   if(Serial.available()){
+#     valorRecebido = Serial.read();
+#     if (valorRecebido == '0'){
+#       digitalWrite(10, LOW);
+#     } else {
+#       digitalWrite(10, HIGH);
+#     }
+#   }
+# }
