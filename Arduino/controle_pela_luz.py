@@ -30,3 +30,22 @@ if conexao != "":
 else:
     print("Sem pontas disponíveis.")
 
+# --> CÓDIGO QUE ESTÁ NO ARDUINO (Sensor)
+#
+# void setup (){
+#     pinMode(10, OUTPUT); # ---> led
+#     Serial.begin(115200); # --> taxa de transferencia
+# }
+#
+# void loop(){
+#     int valorRecebido;
+#     int luz = analogRead(1);
+#     Serial.println(luz);
+#     delay(500);
+#     valorRecebido = Serial.read();
+#     if (valorRecebido == '0'){
+#         digitalWrite(10, LOW);
+#     } else {
+#         digitalWrite(10, HIGH);
+#     }
+# }
